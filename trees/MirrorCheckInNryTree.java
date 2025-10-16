@@ -10,7 +10,7 @@ public class MirrorCheckInNryTree {
         for (int i = 0; i < 2 * e; i += 2) {
             int parent = A[i];
             int child = A[i + 1];
-            mapA.computeIfAbsent(parent, k -> new Stack<>()).push(child);
+            mapA.computeIfAbsent(parent, v -> new Stack<>()).push(child);
         }
         for (int i = 0; i < 2 * e; i += 2) {
             int parent = B[i];
