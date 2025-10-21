@@ -60,6 +60,6 @@ public class StackImplementation {
         System.out.println("Stack size: " + stack.size());
 
         stack.pop();
-        stack.pop();  // underflow
+        stack.pop(); 
     }
 }
